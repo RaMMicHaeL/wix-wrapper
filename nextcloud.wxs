@@ -55,7 +55,7 @@
                         Return="ignore"
                         Execute="deferred"
                         FileKey="File0"
-                        ExeCommand="$(var.ExeSourceFile) /S"
+                        ExeCommand="/S"
                         HideTarget="no"
                         Impersonate="no" />
                 <InstallExecuteSequence>
